@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Configuration
 @ConfigurationProperties(prefix = "test")
-@PropertySource("classpath:test.properties")
+@PropertySource("classpath:test.yml")
 @Component
 @Data
 public class TestConfigBean {
