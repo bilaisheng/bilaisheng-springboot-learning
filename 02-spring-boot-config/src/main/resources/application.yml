@@ -1,0 +1,8 @@
+spring:
+    profiles:
+        active: dev
+
+blog:
+    name: bilaisheng
+    title: spring boot
+    wholeTitle: ${blog.name}-${blog.title}
